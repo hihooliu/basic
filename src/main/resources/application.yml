@@ -12,7 +12,7 @@ server:
 # 开发配置
 spring:
   datasource:
-    password: 526363029
+    password: 123456
     url: jdbc:mysql://localhost:3306/test
     driver-class-name: com.mysql.jdbc.Driver
     type: com.alibaba.druid.pool.DruidDataSource
