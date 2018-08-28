@@ -1,0 +1,19 @@
+# 基础配置
+spring:
+  profiles:
+    active: dev
+mybatis:
+  typeAliasesPackage: com.hioo.basic.entity
+  mapperLocations: classpath:mapper/*.xml
+server:
+  port: 8088
+
+---
+# 开发配置
+spring:
+  datasource:
+    password: 526363029
+    url: jdbc:mysql://localhost:3306/test
+    driver-class-name: com.mysql.jdbc.Driver
+    type: com.alibaba.druid.pool.DruidDataSource
+    username: root
